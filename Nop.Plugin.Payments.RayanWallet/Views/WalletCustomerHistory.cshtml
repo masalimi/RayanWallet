@@ -1,0 +1,98 @@
+﻿@using Nop.Plugin.Payments.RayanWallet.Models
+@using Nop.Web.Framework.Models.DataTables
+@{ Layout = "_ConfigurePlugin"; }
+
+<form asp-controller="PaymentRayanWallet" asp-action="WalletCustomerList" method="post">
+    <div class="content">
+        <div class="form-horizontal">
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        @await Html.PartialAsync("Table", new DataTablesModel
+                   {
+                       Name = "walletHistory-grid",
+                       UrlRead = new DataUrl("WalletCustomerList", "PaymentRayanWallet", null),
+                       ColumnCollection = new List<ColumnProperty>
+                            {
+                                new ColumnProperty(nameof(WalletCustomerHistoryModel.OrderNo))
+                                {
+                                    Title = T("Plugins.Payments.RayanWallet.OderNo").Text,
+                                    Width = "100"
+                                   // Render = new RenderPicture()
+                                },
+                                new ColumnProperty(nameof(WalletCustomerHistoryModel.TransferTypeWallet))
+                                {
+                                    Title = T("Plugins.Payments.RayanWallet.TransferTypeWallet").Text,
+                                    Width = "100"
+                                },
+                                new ColumnProperty(nameof(WalletCustomerHistoryModel.Amount))
+                                {
+                                    Title = T("Plugins.Payments.RayanWallet.Amount").Text,
+                                    Width = "150"
+                                },
+                                new ColumnProperty(nameof(WalletCustomerHistoryModel.CreateDate))
+                                {
+                                    Title = T("Plugins.Payments.RayanWallet.CreateDate").Text,
+                                    Width = "100"
+                                },
+
+                            }
+                   })
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@*<form asp-controller="PaymentRayanWallet" asp-action="WalletCustomerList" >
+        <div class="content">
+            <div class="form-horizontal">
+                <div class="panel-group">
+                    <div class="panel panel-default panel-search">
+                        <div class="panel-body">
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            @await Html.PartialAsync("Table", new DataTablesModel
+                            {
+                                Name = "walletHistory-grid",
+                                UrlRead = new DataUrl("WalletCustomerList", "PaymentRayanWallet", null),
+                                ColumnCollection = new List<ColumnProperty>
+                                {
+                                    new ColumnProperty(nameof(WalletCustomerHistoryModel.OrderNo))
+                                    {
+                                        Title = T("Plugins.Payments.RayanWallet.OderNo").Text,
+                                        Width = "100"
+                                       // Render = new RenderPicture()
+                                    },
+                                    new ColumnProperty(nameof(WalletCustomerHistoryModel.TransferTypeWallet))
+                                    {
+                                        Title = T("Plugins.Payments.RayanWallet.TransferTypeWallet").Text,
+                                        Width = "100"
+                                    },
+                                    new ColumnProperty(nameof(WalletCustomerHistoryModel.Amount))
+                                    {
+                                        Title = T("Plugins.Payments.RayanWallet.Amount").Text,
+                                        Width = "150"
+                                    },
+                                    new ColumnProperty(nameof(WalletCustomerHistoryModel.CreateDate))
+                                    {
+                                        Title = T("Plugins.Payments.RayanWallet.CreateDate").Text,
+                                        Width = "100"
+                                    },
+
+                                }
+                            })
+
+                            <nop-alert asp-alert-id="deleteSelectedFailed" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>*@

@@ -1,0 +1,14 @@
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Presentation\Nop.Web\Plugins\Payments.RayanWallet\plugin.json
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Presentation\Nop.Web\Plugins\Payments.RayanWallet\Views\Configure.cshtml
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Presentation\Nop.Web\Plugins\Payments.RayanWallet\Views\_ViewImports.cshtml
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Presentation\Nop.Web\Plugins\Payments.RayanWallet\logo.jpg
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Presentation\Nop.Web\Plugins\Payments.RayanWallet\Nop.Plugin.Payments.RayanWallet.deps.json
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Presentation\Nop.Web\Plugins\Payments.RayanWallet\Nop.Plugin.Payments.RayanWallet.dll
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Presentation\Nop.Web\Plugins\Payments.RayanWallet\Nop.Plugin.Payments.RayanWallet.pdb
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Plugins\Nop.Plugin.Payments.RayanWallet\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.RayanWallet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Plugins\Nop.Plugin.Payments.RayanWallet\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.RayanWallet.AssemblyInfoInputs.cache
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Plugins\Nop.Plugin.Payments.RayanWallet\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.RayanWallet.AssemblyInfo.cs
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Plugins\Nop.Plugin.Payments.RayanWallet\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.RayanWallet.csproj.CoreCompileInputs.cache
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Plugins\Nop.Plugin.Payments.RayanWallet\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.RayanWallet.csproj.CopyComplete
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Plugins\Nop.Plugin.Payments.RayanWallet\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.RayanWallet.dll
+D:\Kalaresan\Nopcommerce\nopCommerce-release-4.20\src\Plugins\Nop.Plugin.Payments.RayanWallet\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.RayanWallet.pdb
